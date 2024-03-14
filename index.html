@@ -40,20 +40,34 @@
   <!--==========================
     Header
   ============================-->
+  <style>
+    .two_col_grid1 {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-column-gap: 450px;
+    
+    }
+  </style>
+
+
   <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+        <div class="two_col_grid1">
+          <div>
+          </div>
         <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title="" ></a>
+        </div>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#organization">Organization</a></li>
+          <li><a href="#organisation">Organisation</a></li>
           <li><a href="#topics">Topics</a></li>
           <li><a href="#submission">Submission</a></li>
           <!--li><a href="#speakers">Speakers</a></li-->
@@ -104,7 +118,7 @@
     </section>
 
     <!--==========================
-      Organization
+      Organisation
     ============================-->
 
     <style>
@@ -119,10 +133,10 @@
 
     
 
-  <section id="organization" class="wow fadeInUp">
+  <section id="organisation" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-        <h2>Organization</h2>
+        <h2>Organisation</h2>
         </div>
         <div class="two_col_grid">
 
@@ -137,7 +151,7 @@
      
 
         <div> 
-        <h3><b>Program Committee</b></h3>
+        <h3><b>Scientific Committee</b></h3>
           <ul>
           <li>Dr. Zarouri Belkacem, C.R.Bt (<b>President</b>).</li>
           <li>Prof. Benchabane Messaoud, USD-Blida.</li>
@@ -164,7 +178,7 @@
         </div>
         
         <grid>
-        <h3><b>Organizing Committee</b></h3>
+        <h3><b>Organising Committee</b></h3>
         <ul>
           <li>Dr. Marouf Aribi Mohamed, ENSB (<b>President</b>).</li>
           <li>Dr. Bani Moustafa, ENSB. </li>
@@ -172,7 +186,7 @@
           <li>Dr. Bechkri Sakina, UMC1. </li>
           <li>Dr. Boudiar Ridha, C.R.Bt. </li>
           <li>Dr. Nadji Wassila, ENSB. </li>
-          <li>Dr. Seghir Nassim, ENSB. </li>
+          <li>Dr. Seghir Nassim, ENSB (<b>Web Chair</b>). </li>
           <li>Pr. Harfi Boualem, C.R.Bt. </li>
           <li>Dr. Karkour Larbi, C.R.Bt. </li>
           <li>Dr. Rahim Noureddine, ENSB. </li>
@@ -198,12 +212,19 @@
       
 ============================-->
 
+<style>
+  .cent {
+    place-self: center;
+  
+  }
+</style>
+
 <section id="topics" class="wow fadeInUp">
     <div class="container">
       <div class="section-header">
     <h2>Topics</h2>
     </div>
-    We welcome submissions related (but not restricted) to the following topics:
+    We welcome submissions related to the following topics:
     <br>
     <ul>
       <li><b>Field crops:</b> cereals, pulses and industrial crops.</li>
@@ -217,9 +238,9 @@
       Submission section
 ============================-->
     <style>
-      .three_col_grid {
+      .simpl_grid {
         display: grid;
-        grid-template-rows: auto auto auto;
+        /*grid-template-rows: auto auto auto;*/
         grid-row-gap: 50px;
       
       }
@@ -232,7 +253,7 @@
         <div class="section-header">
         <h2>Submission</h2>
         </div>
-        <div class="three_col_grid">
+        <div class="simpl_grid">
         To ensure a smooth submission process, please follow the guidelines outlined below. 
         <div>
         <h5><b>Author Instructions</b></h5>
@@ -245,7 +266,7 @@
           <li><b>Abstract & Keywords:</b> Times New Roman, size 12. The abstract should be concise but well representative. It should state clearly and concisely the objectives, the methodology, the important results and the central conclusions. Page limits (one to two pages or 300 to 500 words).</li>
           <li><b>Language:</b> English/French/Arabic.</li>
         </ul>
-        The abstract must be submitted via the following link (register and follow the submission steps): <a href="https://cmt3.research.microsoft.com/FCPBB24">submit your abstract here!</a>
+        <b>The abstract must be submitted via the following link (register and follow the submission steps): <a href="https://cmt3.research.microsoft.com/FCPBB24">submit your abstract here!</a></b>
         </div>
         <div>
           <h5><b>Important Dates</b></h5>
@@ -255,6 +276,12 @@
             <li>Notification of acceptance: <b>April 30, 2024.</b></li>
             <li>Detailed conference program: <b>May 2, 2024.</b></li>
           </ul>
+        </div>
+        <div>
+          <h5><b>Registration</b></h5>
+          No registration fees are required to attend the conference, lunch and coffee breaks are covered. However, 
+          participants should arrange by themselves for transport, accommodation and other meals.
+          
           </div>
       </div> 
       </div>
@@ -375,7 +402,29 @@
             </div>
           </div>
           
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="sponsor-logo">
+              <img src="img/sponsors/cirta_sem.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="sponsor-logo">
+              <img src="img/sponsors/rsdt.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="sponsor-logo">
+              <img src="img/sponsors/farm.png" class="img-fluid" alt="">
+            </div>
+          </div>
           
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="sponsor-logo">
+              <img src="img/sponsors/umc.png" class="img-fluid" alt="">
+            </div>
+          </div>
         </div>
 
       </div>
