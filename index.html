@@ -213,18 +213,52 @@
 ============================-->
 
 <style>
-  .cent {
-    place-self: center;
-  
+  .my_container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
   }
 </style>
 
-<section id="topics" class="wow fadeInUp">
+<section id="speakers" class="wow fadeInUp">
     <div class="container">
       <div class="section-header">
     <h2>Topics</h2>
     </div>
     We welcome submissions related to the following topics:
+    <!----------------------------------------->
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="speaker">
+          <img src="img/topics/field_corp.png" alt="Field corps" class="img-fluid" >
+          <div class="details">
+            <h3>Field corps</h3>
+            <p>cereals, pulses and industrial crops</p>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="speaker">
+          <img src="img/topics/hort_corp.png" alt="Horticultural crops" class="img-fluid">
+          <div class="details">
+            <h3>Horticultural crops</h3>
+            <p>vegetables, ornamentals and herbs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="speaker">
+          <img src="img/topics/tree_corp.png" alt="Tree crops" class="img-fluid">
+          <div class="details">
+            <h3>Tree crops</h3>
+            <p>fruit trees, vines, date palm and other woody perennial plants.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
     <br>
     <ul>
       <li><b>Field crops:</b> cereals, pulses and industrial crops.</li>
