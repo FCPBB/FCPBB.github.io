@@ -56,11 +56,12 @@
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <div class="two_col_grid1">
+        <!--div class="two_col_grid1">
           <div>
-          </div>
+          </div-->
+          
         <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title="" ></a>
-        </div>
+        <!--/div-->
       </div>
 
       <nav id="nav-menu-container">
@@ -70,7 +71,7 @@
           <li><a href="#organisation">Organisation</a></li>
           <li><a href="#topics">Topics</a></li>
           <li><a href="#submission">Submission</a></li>
-          <!--li><a href="#speakers">Speakers</a></li-->
+          <li><a href="#speakers">Keynote speakers</a></li>
           <!--li><a href="#schedule">Schedule</a></li-->
           <!--li><a href="#venue">Venue</a></li-->
           <!--li><a href="#gallery">Gallery</a></li-->
@@ -122,9 +123,9 @@
     ============================-->
 
     <style>
-      .two_col_grid {
+      .adapt_grid {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)) /*auto auto*/;
         grid-column-gap: 150px;
         grid-row-gap: 50px;
       
@@ -138,7 +139,7 @@
         <div class="section-header">
         <h2>Organisation</h2>
         </div>
-        <div class="two_col_grid">
+        <div class="adapt_grid">
 
           <div><h3><b>Conference Chair</b></h3> 
               <li>Dr. Bani Moustafa, ENSB.</li>
@@ -191,6 +192,7 @@
           <li>Dr. Karkour Larbi, C.R.Bt. </li>
           <li>Dr. Rahim Noureddine, ENSB. </li>
           <li>Dr. Kerroum Fatima, C.R.Bt. </li>
+          <li>Dr. Barhouchi Badra, CRSP.</li>
           <li>M. Ilyas Bouhrem, C.R.Bt. </li>
           <li>Mme. Guemraoui Asma, ENSB. </li>
           <li>Mme. Tir Anfel, C.R.Bt.  </li>
@@ -292,14 +294,14 @@
         <div class="simpl_grid">
         To ensure a smooth submission process, please follow the guidelines outlined below. 
         <div>
-        <h5><b>Author Instructions</b></h5>
-        We accept a one page abstract that adhere to the following format:
+        <h5><b>Instructions for authors</b></h5>
+        We accept abstracts that adhere to the following format:
         <ul>
           <li><b>Title:</b> Times New Roman, size 14.</li>
           <li><b>Author(s) & Affiliation(s):</b> Times New Roman, size 12.</li>
           <li><b>Type of presentation:</b> Oral presentation or poster.</li>
           <li><b>Topic:</b> Indicate the topic of your abstract. It should be one of the three topics of the conference.</li>
-          <li><b>Abstract & Keywords:</b> Times New Roman, size 12. The abstract should be concise but well representative. It should state clearly and concisely the objectives, the methodology, the important results and the central conclusions. Page limits (one to two pages or 300 to 500 words).</li>
+          <li><b>Abstract & Keywords:</b> Times New Roman, size 12. The abstract should be concise but well representative. It should state clearly and concisely the objectives, the methodology, the important results and the central conclusions. Page limits: one to two pages or 300 to 500 words.</li>
           <li><b>Language:</b> English/French/Arabic.</li>
         </ul>
         <b>The abstract must be submitted via the following link (register and follow the submission steps): <a href="https://cmt3.research.microsoft.com/FCPBB24">submit your abstract here!</a></b>
@@ -328,55 +330,42 @@
     <!--==========================
       Speakers Section
     ============================-->
-    <!--section id="speakers" class="wow fadeInUp">
+    <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Event Speakers</h2>
-          <p>Here are some of our speakers</p>
+          <h2>Keynote Speakers</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/person_profile.jpg" alt="Speaker 1" class="img-fluid">
+              <img src="img/speakers/belkacem.jpeg" alt="Abdelkader Benbelkacem" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Mohamed</a></h3>
-                <p>Professeur</p>
+                <h3>Abdelkader Benbelkacem</h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                <h5><a href="https://www.researchgate.net/profile/Abdelkader-Benbelkacem">Research Profil</a></h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/person_profile.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="img/speakers/jameel.jpeg" alt="Jameel M. Al-Khayri" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Ammar</a></h3>
-                <p>Chercheur</p>
+                <h3>Jameel M. Al-Khayri</h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <h5><a href="https://www.researchgate.net/profile/Jameel-Al-Khayri">Research Profil</a></h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/person_profile.jpg" alt="Speaker 3" class="img-fluid">
+              <img src="img/speakers/diego.jpeg" alt="Diego-Rubiales" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Said</a></h3>
-                <p>Enseignant Chercheur</p>
+                <h3>Diego Rubiales</h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <h5><a href="https://www.researchgate.net/profile/Diego-Rubiales">Research Profil</a></h5>
                 </div>
               </div>
             </div>
@@ -385,7 +374,7 @@
         </div>
       </div>
 
-    </section-->
+    </section>
 
     <!--==========================
       Schedule Section
